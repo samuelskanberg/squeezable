@@ -8,3 +8,8 @@ stylesheets[(min-width: 480px)][] = css/480.css
 stylesheets[(min-width: 768px)][] = css/768.css
 stylesheets[(min-width: 1024px)][] = css/1024.css
 stylesheets[(min-width: 1280px)][] = css/1280.css
+
+regions[header] = Header
+regions[sidebar_first] = Right sidebar
+regions[content] = Content
+regions[footer] = Footer

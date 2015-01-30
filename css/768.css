@@ -1,0 +1,24 @@
+
+#siteheader {
+    float: left;
+    width: 50%;
+}
+
+#header-main-menu {
+    float: right;
+    display: block;
+}
+
+#header-main-menu ul li {
+    display: inline;
+}
+
+/* Hide drop down now*/
+#mobile-menu-dropdown {
+    display: none;
+}
+
+
+#footer-main-menu {
+    display: none;
+}

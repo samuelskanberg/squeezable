@@ -1,0 +1,50 @@
+/* Headers and menus */
+#header {
+    height: 40px;
+    background-color: pink;
+}
+
+#siteheader {
+    float: left;
+    width: 90%;
+}
+
+#mobile-menu-dropdown {
+    float: right;
+    width: 10%;
+}
+
+#header:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+/* Main menu should not be visible in mobile view */
+#header-main-menu {
+    display: none;
+}
+
+#sidebar {
+    display: none;
+}
+
+
+/* Content */
+#wrapper {
+    background-color: yellow;
+}
+
+
+
+/* Footer */
+#footer {
+    border-top: solid 1px #aaa;
+}
+
+#footer-main-menu {
+    text-align: center;
+}
