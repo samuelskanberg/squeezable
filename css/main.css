@@ -1,12 +1,56 @@
+@font-face {
+    font-family: SinkinSans;
+    src: url("font/SinkinSans-400Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SinkinSans;
+    font-weight: bold;
+    src: url("font/SinkinSans-400Regular.otf") format("opentype");
+}
+
+body {
+    font-family: SinkinSans, Helvetica, Verdana, Sans-Serif;
+}
+
+a {
+    color: #88f;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    padding-bottom: 1em;
+}
+
 /* Headers and menus */
 #header {
-    height: 40px;
+    height: 50px;
     background-color: pink;
 }
 
 #siteheader {
+    padding-top: 5px;
     float: left;
     width: 90%;
+}
+
+#sitename {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+#slogan {
+    display: none;
 }
 
 #mobile-menu-dropdown {
@@ -35,6 +79,7 @@
 
 /* Content */
 #wrapper {
+    padding: 0.5em;
     background-color: yellow;
 }
 
@@ -42,6 +87,7 @@
 
 /* Footer */
 #footer {
+    text-align: center;
     border-top: solid 1px #aaa;
 }
 
