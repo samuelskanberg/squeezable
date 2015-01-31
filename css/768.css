@@ -25,6 +25,11 @@
     text-decoration: underline;
 }
 
+#header-main-menu ul li a.active {
+    color: #88f;
+    text-decoration: underline;
+}
+
 /* Hide drop down now*/
 #mobile-menu-dropdown {
     display: none;
@@ -40,6 +45,10 @@ div.submitted {
     font-size: 0.8em;
 }
 
+#hero {
+    background: url("../img/circuit-board-desktop.jpg") no-repeat scroll center center / cover #333;
+    height: 300px;
+}
 
 #footer-main-menu {
     display: none;

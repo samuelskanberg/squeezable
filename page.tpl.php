@@ -19,7 +19,12 @@
 
     </header>
 
+    <div id="hero">
+
+    </div>
+
     <div id="wrapper">
+
 
         <div id="content">
             <?php print render($title_prefix); ?>

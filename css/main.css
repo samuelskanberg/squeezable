@@ -11,6 +11,7 @@
 
 body {
     font-family: SinkinSans, Helvetica, Verdana, Sans-Serif;
+    background-color: #f5f5f5;
 }
 
 a {
@@ -33,10 +34,13 @@ p {
     line-height: 1.3em;
 }
 
+#page {
+    background-color: #fff;
+}
+
 /* Headers and menus */
 #header {
     height: 50px;
-    background-color: pink;
 }
 
 #siteheader {
@@ -49,7 +53,7 @@ p {
     padding-left: 8px;
     text-transform: uppercase;
     font-size: 2em;
-    color: #333;
+    color: #88f;
     font-weight: bold;
 }
 
@@ -84,7 +88,12 @@ p {
 /* Content */
 #wrapper {
     padding: 1em;
-    background-color: yellow;
+    background-color: #fff;
+}
+
+#hero {
+    background: url("../img/circuit-board-mobile.jpg") no-repeat scroll center center / cover #333;
+    height: 200px;
 }
 
 div.submitted {
@@ -104,6 +113,7 @@ div.submitted {
 
 #footer-main-menu {
     text-align: center;
+    background-color: #f5f5f5;
 }
 
 #footer-main-menu li {
