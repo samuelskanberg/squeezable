@@ -24,6 +24,16 @@
 }
 
 
+
+div.submitted {
+    display: block;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    font-style: italic;  
+    font-size: 0.8em;
+}
+
+
 #footer-main-menu {
     display: none;
 }
