@@ -10,12 +10,19 @@
 }
 
 #header-main-menu {
+    padding-right: 1em;
+    padding-top: 1em;
     float: right;
     display: block;
 }
 
 #header-main-menu ul li {
     display: inline;
+    padding-left: 0.5em;
+}
+
+#header-main-menu ul li a:hover {
+    text-decoration: underline;
 }
 
 /* Hide drop down now*/
