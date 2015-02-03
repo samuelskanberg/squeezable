@@ -2,12 +2,17 @@ name = Squeezable
 description = A responsive theme
 core = 7.x
 
+stylesheets[all][] = css/leaflet.css
+
 stylesheets[all][] = css/reset.css
 stylesheets[all][] = css/main.css
 stylesheets[(min-width: 480px)][] = css/480.css
 stylesheets[(min-width: 768px)][] = css/768.css
 stylesheets[(min-width: 1024px)][] = css/1024.css
 stylesheets[(min-width: 1280px)][] = css/1280.css
+
+scripts[] = js/leaflet.js
+scripts[] = js/main.js
 
 regions[header] = Header
 regions[sidebar_first] = Right sidebar

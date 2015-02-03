@@ -49,6 +49,11 @@
             <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('class' => 'links'))); ?>
         </nav>
 
+        <?php drupal_add_js(array('squeezable' => array('iconPath' => path_to_theme() . '/img/marker-icon.png')), 'setting'); ?>
+
+        <div id="map">
+        </div>
+
         <?php if($page['footer']): ?>
             <?php print render($page['footer']); ?>
         <?php endif; ?>

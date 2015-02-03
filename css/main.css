@@ -121,3 +121,7 @@ div.submitted {
     padding-bottom: 0.5em;
     border-bottom: solid 1px #aaa;
 }
+
+#map {
+    height: 300px;
+}
