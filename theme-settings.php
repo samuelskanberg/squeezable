@@ -21,6 +21,13 @@ function squeezable_form_system_theme_settings_alter(&$form, $form_state) {
         '#default_value' => theme_get_setting('map_center_long'),
         '#description'   => t('Will be used for center of the map in the footer.'),
     );
+
+    $form['address']['map_zoom_level'] = array(
+        '#type'          => 'textfield',
+        '#title'         => t('Zoom level of the map'),
+        '#default_value' => theme_get_setting('map_zoom_level'),
+        '#description'   => t('Will be used for zoom level of the map in the footer.'),
+    );
 }
 
 ?>

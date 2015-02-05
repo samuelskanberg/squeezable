@@ -53,6 +53,7 @@
             'iconPath' => path_to_theme() . '/img/marker-icon.png',
             'mapCenterLat' => theme_get_setting('map_center_lat'),
             'mapCenterLong' => theme_get_setting('map_center_long'),
+            'mapZoomLevel' => theme_get_setting('map_zoom_level'),
             'streetAddress' => theme_get_setting('street_address'),
         )), 'setting'); ?>
 

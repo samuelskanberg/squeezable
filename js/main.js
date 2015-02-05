@@ -5,12 +5,13 @@ window.onload = function() {
     var iconPath = Drupal.settings.squeezable.iconPath;
     var mapCenterLat = Drupal.settings.squeezable.mapCenterLat;
     var mapCenterLong = Drupal.settings.squeezable.mapCenterLong;
+    var mapZoomLevel = Drupal.settings.squeezable.mapZoomLevel;
     var streetAddress = Drupal.settings.squeezable.streetAddress;
 
     //var mapCenterPos = [59.4, 17.5];
     var mapCenterPos = [mapCenterLat, mapCenterLong];
 
-    var map = L.map('map').setView(mapCenterPos, 6);
+    var map = L.map('map').setView(mapCenterPos, mapZoomLevel); 
 
     var customIcon = L.icon({
         iconUrl: iconPath,
