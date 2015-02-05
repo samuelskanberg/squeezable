@@ -20,6 +20,5 @@ regions[content] = Content
 regions[footer] = Footer
 
 settings[street_address] = T-centralen
-settings[map_center_lat] = 59.3321405 
-settings[map_center_long] = 18.0633971
+settings[map_center_coordinates] = 59.3321405,18.0633971
 settings[map_zoom_level] = 6

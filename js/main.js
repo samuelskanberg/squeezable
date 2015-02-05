@@ -16,8 +16,8 @@ window.onload = function() {
     var customIcon = L.icon({
         iconUrl: iconPath,
         iconSize:     [25, 41], 
-        iconAnchor:   [23, 58], 
-        popupAnchor:  [0, -60] 
+        iconAnchor:   [12, 41], 
+        popupAnchor:  [0, -45] 
     });
 
     // add an OpenStreetMap tile layer

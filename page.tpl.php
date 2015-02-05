@@ -49,10 +49,19 @@
             <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('class' => 'links'))); ?>
         </nav>
 
-        <?php drupal_add_js(array('squeezable' => array(
+        
+
+        <?php 
+        
+        // Split coordinates into lat and long
+        $content = explode(',', theme_get_setting('map_center_coordinates'));
+        $lat = $content[0];
+        $long = $content[1];
+
+        drupal_add_js(array('squeezable' => array(
             'iconPath' => path_to_theme() . '/img/marker-icon.png',
-            'mapCenterLat' => theme_get_setting('map_center_lat'),
-            'mapCenterLong' => theme_get_setting('map_center_long'),
+            'mapCenterLat' => $lat,
+            'mapCenterLong' => $long,
             'mapZoomLevel' => theme_get_setting('map_zoom_level'),
             'streetAddress' => theme_get_setting('street_address'),
         )), 'setting'); ?>
