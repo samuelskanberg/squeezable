@@ -72,7 +72,7 @@
             </div>
 
             <div id="address" class="clearfix">
-                <h2>Here we are</h2>
+                <h1>Here we are</h1>
                 Address: <?php echo theme_get_setting('street_address'); ?>
             </div>
 
