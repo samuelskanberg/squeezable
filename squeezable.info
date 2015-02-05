@@ -18,3 +18,7 @@ regions[header] = Header
 regions[sidebar_first] = Right sidebar
 regions[content] = Content
 regions[footer] = Footer
+
+settings[street_address] = Foo street 5
+settings[map_center_lat] = 59.4
+settings[map_center_long] = 17.5

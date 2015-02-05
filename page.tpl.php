@@ -49,9 +49,24 @@
             <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('class' => 'links'))); ?>
         </nav>
 
-        <?php drupal_add_js(array('squeezable' => array('iconPath' => path_to_theme() . '/img/marker-icon.png')), 'setting'); ?>
+        <?php drupal_add_js(array('squeezable' => array(
+            'iconPath' => path_to_theme() . '/img/marker-icon.png',
+            'mapCenterLat' => theme_get_setting('map_center_lat'),
+            'mapCenterLong' => theme_get_setting('map_center_long'),
+            'streetAddress' => theme_get_setting('street_address'),
+        )), 'setting'); ?>
 
-        <div id="map">
+        <div id="addresscontainier">
+
+            <div id="map">
+            </div>
+
+            <div id="address">
+                Address: <?php echo theme_get_setting('street_address'); ?>
+                Lat: <?php echo theme_get_setting('map_center_lat'); ?>
+                Long: <?php echo theme_get_setting('map_center_long'); ?>
+            </div>
+
         </div>
 
         <?php if($page['footer']): ?>
