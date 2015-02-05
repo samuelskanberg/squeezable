@@ -55,3 +55,17 @@ div.submitted {
 }
 
 
+#map {
+    width: 50%;
+    float: left;
+}
+
+#address {
+    padding: 0;
+    padding-top: 3em;
+}
+
+
+
+
+
