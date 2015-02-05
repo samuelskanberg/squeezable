@@ -62,16 +62,17 @@
             <div id="map">
             </div>
 
-            <div id="address">
+            <div id="address" class="clearfix">
+                <h2>Here we are</h2>
                 Address: <?php echo theme_get_setting('street_address'); ?>
-                Lat: <?php echo theme_get_setting('map_center_lat'); ?>
-                Long: <?php echo theme_get_setting('map_center_long'); ?>
             </div>
 
         </div>
 
         <?php if($page['footer']): ?>
-            <?php print render($page['footer']); ?>
+            <div id="userfooter">
+                <?php print render($page['footer']); ?>
+            </div>
         <?php endif; ?>
 
     </div>

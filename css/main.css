@@ -125,3 +125,23 @@ div.submitted {
 #map {
     height: 300px;
 }
+
+#addresscontainier {
+    border-bottom: solid 1px #aaa;
+}
+
+#address {
+    padding: 1em 0;
+}
+
+#userfooter {
+    padding: 3em 0;
+}
+
+.clearfix:after { 
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+}
